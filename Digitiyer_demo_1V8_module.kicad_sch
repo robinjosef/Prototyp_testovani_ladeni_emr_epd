@@ -11647,7 +11647,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 266.446 38.1 0)
 			(effects
 				(font
@@ -14013,7 +14013,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 206.756 38.354 0)
 			(effects
 				(font
@@ -14161,7 +14161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCImport:05B20U24P"
+		(property "Footprint" "JLCImport:FPC-0_5FX-24PWBH15"
 			(at 271.78 104.14 0)
 			(effects
 				(font
