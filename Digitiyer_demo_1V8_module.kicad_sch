@@ -3015,6 +3015,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:LESD5Z5_0T1G"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LESD5Z5_0T1G"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811021122_LRC-LESD5Z5-0T1G_C136171.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-40℃~+125℃ 174W@8/20us 18.6V 1uA 5V 6.2V 80pF 9.4A@8/20us IEC 61000-4-2、IEC 61000-4-4 TVS Unidirectional SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C136171"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "LRC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "LESD5Z5.0T1G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C136171 LESD5Z5.0T1G LRC SOD-523_L1.2-W0.8-LS1.6-RD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LESD5Z5_0T1G_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.524) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:LM27762DSSR"
 			(pin_names
 				(offset 1.016)
@@ -7035,6 +7209,18 @@
 		(uuid "8f358505-e1fa-4568-8254-2518bc9fe05b")
 	)
 	(junction
+		(at 48.26 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "918b4eb6-fb60-4896-bf95-b53fca7424f1")
+	)
+	(junction
+		(at 57.15 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9654ba0e-8cb4-4e4f-a1c0-6e409acd9b54")
+	)
+	(junction
 		(at 76.2 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7077,12 +7263,6 @@
 		(uuid "b66d06ab-2b3d-4bce-95a0-e721eeff9e0c")
 	)
 	(junction
-		(at 57.15 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb7334b8-8a6a-4c83-bc9b-a7f7734cf7d8")
-	)
-	(junction
 		(at 76.2 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7119,6 +7299,12 @@
 		(uuid "e7b01af7-7fb5-4203-98c3-4dd68b52dba1")
 	)
 	(junction
+		(at 57.15 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb2fc9bb-9380-4f1c-98f2-f051a02db391")
+	)
+	(junction
 		(at 223.52 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7131,16 +7317,52 @@
 		(uuid "eed0a6dd-a95b-4f0c-ac60-56e2281d2b80")
 	)
 	(no_connect
+		(at 44.45 104.14)
+		(uuid "00ae412e-0dc7-413c-9c45-bc50870a27ad")
+	)
+	(no_connect
+		(at 125.73 90.17)
+		(uuid "03a0845b-0db2-4a34-baab-1ab5e4f5f671")
+	)
+	(no_connect
 		(at 227.33 54.61)
 		(uuid "12f9bb77-65f8-4e00-8149-e06e312e3677")
+	)
+	(no_connect
+		(at 153.67 88.9)
+		(uuid "2e7a342b-172e-48e6-89dd-0067933c03ab")
+	)
+	(no_connect
+		(at 44.45 101.6)
+		(uuid "32fd7e42-becb-463d-8298-86beee653e3a")
 	)
 	(no_connect
 		(at 259.08 76.2)
 		(uuid "36368ac8-5d84-4ce3-a469-74687da32f66")
 	)
 	(no_connect
+		(at 125.73 95.25)
+		(uuid "36e64add-0073-49d4-bee3-c6b6cd2b810f")
+	)
+	(no_connect
+		(at 125.73 115.57)
+		(uuid "3951f93e-dbb6-4ebb-811f-f7f247ebdbe9")
+	)
+	(no_connect
+		(at 153.67 114.3)
+		(uuid "39ff840c-5865-490f-a436-4d970e282cf0")
+	)
+	(no_connect
 		(at 259.08 91.44)
 		(uuid "3d370c7e-0151-4277-92c8-992cdfa88b67")
+	)
+	(no_connect
+		(at 153.67 121.92)
+		(uuid "40204210-a430-40d2-b760-d4d7d0a4e9d4")
+	)
+	(no_connect
+		(at 153.67 119.38)
+		(uuid "44f23e8f-9ba4-407e-a65c-da4eaa663fe4")
 	)
 	(no_connect
 		(at 110.49 172.72)
@@ -7151,12 +7373,36 @@
 		(uuid "56b7de20-e9ca-4559-aaef-92dd1e68e08c")
 	)
 	(no_connect
+		(at 125.73 120.65)
+		(uuid "5a3f8a84-1847-4715-bf82-26997cee7a55")
+	)
+	(no_connect
+		(at 153.67 109.22)
+		(uuid "708d9ec8-3948-4156-8e23-9d34019de1dd")
+	)
+	(no_connect
 		(at 259.08 83.82)
 		(uuid "78f6c592-39d5-4b0a-b5cf-6d2f7034bc83")
 	)
 	(no_connect
+		(at 153.67 116.84)
+		(uuid "7bc56b90-56a4-49fc-af0d-9060e0d9e3bc")
+	)
+	(no_connect
+		(at 125.73 123.19)
+		(uuid "7f33142e-ff74-4741-ac40-fd966c0eb7e9")
+	)
+	(no_connect
+		(at 125.73 118.11)
+		(uuid "84489afb-00ca-4a29-bbe7-540bf26eca91")
+	)
+	(no_connect
 		(at 252.73 52.07)
 		(uuid "8560e323-865f-49d0-a096-fde32c3404cb")
+	)
+	(no_connect
+		(at 125.73 100.33)
+		(uuid "88948270-c6a0-4594-be3b-6920cd50e15b")
 	)
 	(no_connect
 		(at 252.73 54.61)
@@ -7167,6 +7413,14 @@
 		(uuid "8b4d062c-eeee-464f-b593-dc2c477d1136")
 	)
 	(no_connect
+		(at 125.73 105.41)
+		(uuid "8c6a8ad0-c6bf-439a-bdf5-0213fdf4bb52")
+	)
+	(no_connect
+		(at 125.73 102.87)
+		(uuid "8fe769b9-b3a5-45ee-8f97-a16a911429ee")
+	)
+	(no_connect
 		(at 259.08 121.92)
 		(uuid "997c23d5-69da-4b43-9ae6-ea331ac51449")
 	)
@@ -7175,8 +7429,16 @@
 		(uuid "a5bf2134-ddaa-46e0-be3f-b69d4a4fefc2")
 	)
 	(no_connect
+		(at 125.73 92.71)
+		(uuid "b30e8cc2-531e-41f5-af8d-7a28cd6db6b0")
+	)
+	(no_connect
 		(at 86.36 168.91)
 		(uuid "b7cae233-3b63-4178-bc64-d164b365587f")
+	)
+	(no_connect
+		(at 125.73 87.63)
+		(uuid "e49ee041-421b-4939-8ae7-38324c722992")
 	)
 	(no_connect
 		(at 24.13 153.67)
@@ -7271,6 +7533,26 @@
 			(type default)
 		)
 		(uuid "0b49e7a3-301d-42b1-80ee-c09020921a7c")
+	)
+	(wire
+		(pts
+			(xy 57.15 34.29) (xy 57.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf708a0-12ea-40da-8e77-87f0305a84ba")
+	)
+	(wire
+		(pts
+			(xy 57.15 175.26) (xy 57.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1d4511-59ef-4a42-8e82-29997d811b40")
 	)
 	(wire
 		(pts
@@ -7511,16 +7793,6 @@
 			(type default)
 		)
 		(uuid "22d02740-15b9-411e-a659-dc90c5eef607")
-	)
-	(wire
-		(pts
-			(xy 63.5 176.53) (xy 68.58 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22ea8a28-0428-47d8-82a0-eef7561a5788")
 	)
 	(wire
 		(pts
@@ -7794,6 +8066,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 34.29) (xy 57.15 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338a195f-dd6c-4279-ac3a-906c1500e3f8")
+	)
+	(wire
+		(pts
 			(xy 204.47 92.71) (xy 210.82 92.71)
 		)
 		(stroke
@@ -8034,6 +8316,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 44.45) (xy 57.15 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d801196-cdb6-4000-8748-8a30ed2a6ac9")
+	)
+	(wire
+		(pts
 			(xy 173.99 148.59) (xy 181.61 148.59)
 		)
 		(stroke
@@ -8074,7 +8366,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 41.91) (xy 57.15 45.72)
+			(xy 57.15 41.91) (xy 57.15 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8091,16 +8383,6 @@
 			(type default)
 		)
 		(uuid "512a9353-a120-4c7d-83c5-854b2432899e")
-	)
-	(wire
-		(pts
-			(xy 44.45 34.29) (xy 57.15 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5224d18a-b56e-45d2-a223-68d40a1b91d3")
 	)
 	(wire
 		(pts
@@ -8834,16 +9116,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 34.29) (xy 57.15 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8fe781a-299d-4dd6-a879-ef78bd7fbe5c")
-	)
-	(wire
-		(pts
 			(xy 64.77 34.29) (xy 64.77 43.18)
 		)
 		(stroke
@@ -9114,6 +9386,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 176.53) (xy 68.58 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca67794-7b97-4619-b1f9-170d4b0a1030")
+	)
+	(wire
+		(pts
 			(xy 259.08 101.6) (xy 266.7 101.6)
 		)
 		(stroke
@@ -9291,6 +9573,16 @@
 			(type default)
 		)
 		(uuid "cb529643-78f8-4438-90cd-b00d00e0256e")
+	)
+	(wire
+		(pts
+			(xy 44.45 34.29) (xy 48.26 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0f23ef-d9f9-4c5b-854c-3f6e99e3e2ad")
 	)
 	(wire
 		(pts
@@ -9761,6 +10053,16 @@
 			(type default)
 		)
 		(uuid "fc20b664-e715-4301-b18f-ca0c0ae8cd66")
+	)
+	(wire
+		(pts
+			(xy 57.15 44.45) (xy 57.15 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd15f31b-f7e7-4fa9-91c0-a1d163c5f4a7")
 	)
 	(wire
 		(pts
@@ -12347,6 +12649,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDDA")
+		(at 57.15 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35787c51-5893-4016-a117-6622a7de6686")
+		(property "Reference" "#PWR061"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 57.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff83ae48-50b0-4326-b20b-0df747569605")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VEE")
 		(at 111.76 162.56 90)
 		(unit 1)
@@ -12925,6 +13293,102 @@
 			(project ""
 				(path "/9366839b-90ab-4146-a727-74c5e521354c"
 					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:LESD5Z5_0T1G")
+		(at 48.26 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fbb1b5f-7a0d-4eb7-aef3-7ae930d0dbf2")
+		(property "Reference" "D7"
+			(at 45.466 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LESD5Z5_0T1G"
+			(at 45.466 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811021122_LRC-LESD5Z5-0T1G_C136171.pdf"
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+125℃ 174W@8/20us 18.6V 1uA 5V 6.2V 80pF 9.4A@8/20us IEC 61000-4-2、IEC 61000-4-4 TVS Unidirectional SOD-523 ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136171"
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LRC"
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "LESD5Z5.0T1G"
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bd7b431-8587-489d-b824-8fd179d760c8")
+		)
+		(pin "2"
+			(uuid "25e43f0f-c04f-41c1-9ac6-65d12d2a437f")
+		)
+		(instances
+			(project ""
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "D7")
 					(unit 1)
 				)
 			)
