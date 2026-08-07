@@ -6910,6 +6910,16 @@
 		)
 		(uuid "088e2213-6edb-4927-8edd-6a79f422805a")
 	)
+	(text "SPD"
+		(exclude_from_sim no)
+		(at 86.36 181.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1624538b-6053-443e-ae60-d051b5e3f50d")
+	)
 	(text "Součástky ANO"
 		(exclude_from_sim no)
 		(at 64.262 56.134 0)
@@ -6930,6 +6940,16 @@
 		)
 		(uuid "391eac03-906a-4f66-9416-4c7b96821b75")
 	)
+	(text "SPD"
+		(exclude_from_sim no)
+		(at 33.02 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47b5f7a3-a93d-4ab3-b5a2-dbf3fe12bb94")
+	)
 	(text "Součástky ANO"
 		(exclude_from_sim no)
 		(at 240.03 64.77 0)
@@ -6939,6 +6959,16 @@
 			)
 		)
 		(uuid "48417f21-b21d-48af-8605-dcc4da345f71")
+	)
+	(text "SPD"
+		(exclude_from_sim no)
+		(at 225.044 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54c51183-0a74-4610-b344-241fdf25063c")
 	)
 	(text "Use low-ESR ceramic multi-layer capacitors"
 		(exclude_from_sim no)
@@ -7081,6 +7111,16 @@
 			(justify left)
 		)
 		(uuid "e6049322-429c-4647-9534-0e7e677d7351")
+	)
+	(text "SPD"
+		(exclude_from_sim no)
+		(at 56.388 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2216187-c574-4342-bbcb-e5eaf705a26d")
 	)
 	(text "Zkontrolováno."
 		(exclude_from_sim no)
@@ -7721,16 +7761,6 @@
 			(type default)
 		)
 		(uuid "19e9ff74-e9c6-438f-9ee6-8d5f10317881")
-	)
-	(wire
-		(pts
-			(xy 220.98 58.42) (xy 220.98 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19eed333-efd3-4988-8565-d571fa6629d3")
 	)
 	(wire
 		(pts
@@ -9414,16 +9444,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 64.77) (xy 220.98 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba92e9c7-52a3-4911-b4a4-bcc25ffa7358")
-	)
-	(wire
-		(pts
 			(xy 27.94 85.09) (xy 27.94 86.36)
 		)
 		(stroke
@@ -9884,16 +9904,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 57.15) (xy 227.33 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d92b2c-46b6-4d4b-9cd8-5ab46414d6bc")
-	)
-	(wire
-		(pts
 			(xy 245.11 129.54) (xy 242.57 129.54)
 		)
 		(stroke
@@ -10021,6 +10031,16 @@
 			(type default)
 		)
 		(uuid "f0f6485b-ad66-41f4-8db9-69b3cabf7d07")
+	)
+	(wire
+		(pts
+			(xy 214.63 57.15) (xy 227.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42c8de3-8f45-49e6-92f3-146611d89ddf")
 	)
 	(wire
 		(pts
@@ -11905,71 +11925,6 @@
 			(project "Digitiyer_demo_1V8_module"
 				(path "/9366839b-90ab-4146-a727-74c5e521354c"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 220.98 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15608ade-4370-4980-8b2e-7f50f2eaf10d")
-		(property "Reference" "#PWR036"
-			(at 220.98 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 221.107 69.1642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "272f8808-65e6-405f-aeef-1fb59a5cf2ae")
-		)
-		(instances
-			(project "Digitiyer_demo_1V8_module"
-				(path "/9366839b-90ab-4146-a727-74c5e521354c"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15362,73 +15317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 220.98 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a6696e8-9733-4809-ab97-2cb75706bd7c")
-		(property "Reference" "R24"
-			(at 223.52 60.198 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "50k"
-			(at 224.028 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35dc3a39-572c-408f-b9d1-1c2ad7a10615")
-		)
-		(pin "2"
-			(uuid "0b1cf9fa-710f-47bf-bc24-000b9718cb5d")
-		)
-		(instances
-			(project "Digitiyer_demo_1V8_module"
-				(path "/9366839b-90ab-4146-a727-74c5e521354c"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 264.16 31.75 0)
 		(unit 1)
@@ -15909,6 +15797,72 @@
 			(project "Digitiyer_demo_1V8_module"
 				(path "/9366839b-90ab-4146-a727-74c5e521354c"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 214.63 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98f80fd4-c36e-47f3-adee-e75c2c834a3d")
+		(property "Reference" "#PWR036"
+			(at 214.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 214.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43941c76-2690-4641-ab81-2d98d78b242e")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -18007,7 +17961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
 			(at 196.85 114.3 0)
 			(effects
 				(font

@@ -1278,25 +1278,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.175 0)
+			(property "Reference" "U7"
+				(at 0.508 7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "${SIM.PARAMS}"
-				(at 3.81 -3.175 0)
+			(property "Value" "74LVC1G34GW"
+				(at 6.096 4.5151 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1343,7 +1341,7 @@
 				)
 			)
 			(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-				(at 0 0 0)
+				(at 0.254 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1394,7 +1392,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1412,7 +1410,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1430,7 +1428,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1448,7 +1446,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1466,7 +1464,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2128,6 +2126,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PPD"
+		(exclude_from_sim no)
+		(at 125.73 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e50ba40-6ccd-4c69-bdc7-643253eff788")
+	)
 	(text "High-pass min 60 kHz"
 		(exclude_from_sim no)
 		(at 64.008 74.168 90)
@@ -2167,6 +2175,26 @@
 			)
 		)
 		(uuid "d9625220-df72-484a-adac-0e292c5aebbb")
+	)
+	(text "PPD"
+		(exclude_from_sim no)
+		(at 120.904 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f09fb70f-aa75-4c89-8147-5aabff766ba9")
+	)
+	(text "PPD"
+		(exclude_from_sim no)
+		(at 184.15 87.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f787f40a-4bb1-4696-81d8-ec1afa8220eb")
 	)
 	(junction
 		(at 101.6 55.88)
@@ -7626,8 +7654,8 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1G34GW"
-			(at 128.016 111.0549 0)
+		(property "Value" "OPA365AQDBVRQ1"
+			(at 130.048 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +7709,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 121.92 115.57 0)
+			(at 122.174 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
