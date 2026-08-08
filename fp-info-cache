@@ -1,4 +1,4 @@
-26778094780937419
+26783452429389344
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69132,6 +69132,13 @@ C356849 Chengdu Ebyte Elec Tech E73-2G4M08S1C WIRELM-SMD_E73-2G4M08S1C
 43
 43
 JLCImport
+FPC-0_5FX-24PWBH15
+-25℃~+85℃ 0.3mm 0.5mm 1.5mm 24P 500mA 50V Bottom Contact Hinged Lid Phosphor bronze Surface Mount, Right Angle Tin SMD,P=0.5mm FFC, FPC (Flat Flexible) Connector Assemblies ROHS
+C3446032 FPC-0.5FX-24PWBH15 FPC-SMD_XUNPU_FPC-0.5FX-24PWBH15 XUNPU
+0
+26
+26
+JLCImport
 FPC-05F-8PH20
 -25℃~+85℃ 0.3mm 0.5mm 2mm 500mA 50V 8P Bottom Contact Hinged Lid Phosphor bronze Surface Mount, Right Angle Tin SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS
 C2856797 FPC-05F-8PH20 FPC-SMD_8P-P0.50_FPC-05F-8PH20 XUNPU
@@ -69152,6 +69159,20 @@ BULETM-SMD_RF-BM-ND05 C5187534 RF-BM-ND05 RF-star
 0
 33
 33
+JLCImport
+TPS63900DSKR
+-40℃~+125℃@(TJ) 1 1.8V~5.5V 1.8V~5V 400mA 75nA Adjustable Buck-Boost Buck-Boost Built-in Yes WSON-10-EP(2.5x2.5) DC-DC Converters ROHS
+C1518762 TPS63900DSKR Texas Instruments WSON-10_L2.5-W2.5-W0.50-TL-EP
+0
+11
+11
+JLCImport
+TYPE-C_6PIN
+-25℃~+85℃ 1 10,000 Cycles 3A 5V 6P Black Female Surface Mount, Right Angle Type-C USB 3.1 SMD USB Connectors ROHS
+C7507406 SHOU HAN TYPE-C 6PIN USB-SMD_TYPE-C-6PIN
+0
+10
+10
 Jumper
 Jumper_Harwin_S1621_P10.9mm
 Harwin SMD jumper link, 12.3x2.3mm, 1.8mm height, 10.9mm pad pitch, https://cdn.harwin.com/pdfs/S1621R.pdf

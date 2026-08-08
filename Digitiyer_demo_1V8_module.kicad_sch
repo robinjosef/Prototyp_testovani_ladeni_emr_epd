@@ -6608,6 +6608,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDD"
 			(power)
 			(pin_numbers
@@ -7235,6 +7336,16 @@
 		)
 		(uuid "61cb1806-03bc-4526-bd51-cdfbbc5b38ef")
 	)
+	(text "PPD"
+		(exclude_from_sim no)
+		(at 72.136 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "743c2c50-602a-4b73-a015-6fe3a477ade6")
+	)
 	(text "SIMULATED INDUCTANCE\n749 nH @ 500 kHz"
 		(exclude_from_sim no)
 		(at 118.11 190.246 0)
@@ -7296,6 +7407,16 @@
 		)
 		(uuid "a532a3ed-98a7-43b7-8081-666a4e6709e3")
 	)
+	(text "PPD"
+		(exclude_from_sim no)
+		(at 154.432 127.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae1f429f-f7de-4fab-a0c1-cfcf84770ad5")
+	)
 	(text "Součástky ANO"
 		(exclude_from_sim no)
 		(at 35.56 109.22 0)
@@ -7336,6 +7457,16 @@
 		)
 		(uuid "c3dc8179-6c02-4522-8cd4-21ca275eb906")
 	)
+	(text "PPD"
+		(exclude_from_sim no)
+		(at 56.388 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5e704a6-7896-425d-a35b-bafe3a0aa354")
+	)
 	(text "Součástky ANO"
 		(exclude_from_sim no)
 		(at 63.5 182.626 0)
@@ -7348,7 +7479,7 @@
 	)
 	(text "SPD"
 		(exclude_from_sim no)
-		(at 48.26 32.258 0)
+		(at 42.418 39.878 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7797,6 +7928,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 24.13) (xy 130.81 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00034b1d-b5c7-447d-afc5-33be1c0f9108")
+	)
+	(wire
+		(pts
 			(xy 218.44 80.01) (xy 232.41 80.01)
 		)
 		(stroke
@@ -7834,6 +7975,16 @@
 			(type default)
 		)
 		(uuid "027077bb-294b-42e1-b584-a82bf8d71072")
+	)
+	(wire
+		(pts
+			(xy 146.05 24.13) (xy 146.05 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039690f8-8581-4134-b15e-042a01921829")
 	)
 	(wire
 		(pts
@@ -8427,6 +8578,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 24.13) (xy 142.24 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3317f952-fea3-4a31-9a96-08b072041cbd")
+	)
+	(wire
+		(pts
 			(xy 64.77 43.18) (xy 67.31 43.18)
 		)
 		(stroke
@@ -8664,6 +8825,16 @@
 			(type default)
 		)
 		(uuid "4c460917-39bb-4af4-a1aa-bd645f7251f2")
+	)
+	(wire
+		(pts
+			(xy 134.62 24.13) (xy 134.62 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c53cc29-71e5-46a7-8f7e-4ee35734c474")
 	)
 	(wire
 		(pts
@@ -8947,7 +9118,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 95.25) (xy 44.45 95.25)
+			(xy 34.29 95.25) (xy 44.45 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9054,6 +9225,16 @@
 			(type default)
 		)
 		(uuid "73b2c24c-ba56-4bf9-8245-897a3be6290a")
+	)
+	(wire
+		(pts
+			(xy 157.48 30.48) (xy 157.48 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7410e9e7-404d-4ea3-bbd4-da9ac21e3d36")
 	)
 	(wire
 		(pts
@@ -9787,6 +9968,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 30.48) (xy 153.67 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9f5ba7-c4eb-4532-8b49-9173363e1c22")
+	)
+	(wire
+		(pts
 			(xy 27.94 85.09) (xy 27.94 86.36)
 		)
 		(stroke
@@ -9967,6 +10158,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 30.48) (xy 149.86 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bb29f6-9eae-45c8-b87e-3ba09189cac3")
+	)
+	(wire
+		(pts
 			(xy 251.46 124.46) (xy 266.7 124.46)
 		)
 		(stroke
@@ -9974,6 +10175,16 @@
 			(type default)
 		)
 		(uuid "c910d3af-990f-4b65-9fe5-14b53e80c40b")
+	)
+	(wire
+		(pts
+			(xy 138.43 24.13) (xy 138.43 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3f32c8-5886-441b-9ead-73af8edb49e5")
 	)
 	(wire
 		(pts
@@ -10107,7 +10318,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 99.06) (xy 35.56 95.25)
+			(xy 34.29 99.06) (xy 34.29 95.25)
 		)
 		(stroke
 			(width 0)
@@ -10507,7 +10718,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 99.06) (xy 35.56 99.06)
+			(xy 38.1 99.06) (xy 34.29 99.06)
 		)
 		(stroke
 			(width 0)
@@ -11815,6 +12026,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 130.81 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a884ed9-4a95-4992-a2fe-34329a4e8b54")
+		(property "Reference" "#PWR066"
+			(at 130.81 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 129.032 25.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbe9939f-3c14-4eff-bccc-a329496dd1cd")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 246.38 93.98 0)
 		(unit 1)
@@ -11941,6 +12218,73 @@
 			(project "Digitiyer_demo_1V8_module"
 				(path "/9366839b-90ab-4146-a727-74c5e521354c"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 142.24 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e7d82ca-6d68-483d-ba82-3403615e1255")
+		(property "Reference" "#FLG04"
+			(at 142.24 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 142.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 142.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a848e8c-2dfa-4c79-917b-45301ad8be84")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -12235,6 +12579,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDDA")
+		(at 142.24 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1443138a-d37b-43f2-8cff-be9ecfb063ff")
+		(property "Reference" "#PWR069"
+			(at 142.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 140.462 22.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 142.24 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b701577-0c10-44e3-871d-c8e0fde08fae")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 57.15 39.37 180)
 		(unit 1)
@@ -12304,6 +12713,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VSSA")
+		(at 153.67 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "157e806a-dfe3-4355-912a-ec67679eee5e")
+		(property "Reference" "#PWR071"
+			(at 153.67 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSSA"
+			(at 153.67 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+			(at 153.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cbdf63f-d8ad-45fc-9572-b87396c6d37d")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 118.11 78.74 180)
 		(unit 1)
@@ -12367,6 +12841,73 @@
 			(project "Digitiyer_demo_1V8_module"
 				(path "/9366839b-90ab-4146-a727-74c5e521354c"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "177fef43-14df-450c-bda2-77359cebd008")
+		(property "Reference" "#FLG07"
+			(at 153.67 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 153.67 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47ec081b-526e-464e-8188-651ffdc51db2")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -12785,6 +13326,73 @@
 			(project "Digitiyer_demo_1V8_module"
 				(path "/9366839b-90ab-4146-a727-74c5e521354c"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 134.62 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "282b5c5c-a15d-4bab-97f2-c3fac771d393")
+		(property "Reference" "#FLG02"
+			(at 134.62 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 134.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cb928d1-8855-4a9b-874e-6323c4e43273")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -13389,6 +13997,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 146.05 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40e57fcf-3416-47bd-a3f4-0085d8299b79")
+		(property "Reference" "#FLG05"
+			(at 146.05 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 146.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ca7b1b3-b441-413d-9562-f1db10dfdf64")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 57.15 45.72 0)
 		(unit 1)
@@ -13783,7 +14458,7 @@
 		(dnp no)
 		(uuid "4fbb1b5f-7a0d-4eb7-aef3-7ae930d0dbf2")
 		(property "Reference" "D7"
-			(at 51.054 49.53 90)
+			(at 46.736 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13792,7 +14467,7 @@
 			)
 		)
 		(property "Value" "LESD5Z5_0T1G"
-			(at 51.054 46.99 90)
+			(at 58.166 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13894,7 +14569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 193.04 32.258 90)
 			(effects
 				(font
@@ -15227,6 +15902,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 134.62 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f97a230-f3db-4fc6-a368-5a61017283ca")
+		(property "Reference" "#PWR067"
+			(at 134.62 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 132.842 23.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 134.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b0fa8e9-b091-4195-9f0c-713ad1296e2f")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDDA")
 		(at 204.47 26.67 0)
 		(unit 1)
@@ -15358,6 +16098,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VEE")
+		(at 146.05 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76c5dea8-f379-4fbb-8873-986df6b404e7")
+		(property "Reference" "#PWR072"
+			(at 146.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VEE"
+			(at 144.272 22.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "359da10c-0eee-4961-86e1-43d7bd74b563")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 92.71 113.03 90)
 		(unit 1)
@@ -15382,7 +16187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 92.71 114.808 90)
 			(effects
 				(font
@@ -15587,7 +16392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 119.38 120.65 90)
 			(effects
 				(font
@@ -17082,6 +17887,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 149.86 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acea3a11-d8eb-49fe-8159-bb5669726f5e")
+		(property "Reference" "#FLG06"
+			(at 149.86 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 149.86 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 149.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2be954b5-c98b-4bfe-aac8-f2de10670c49")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 71.12 148.59 270)
 		(unit 1)
@@ -17275,6 +18147,71 @@
 			(project "Digitiyer_demo_1V8_module"
 				(path "/9366839b-90ab-4146-a727-74c5e521354c"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b33953bf-6a38-4fa7-afc8-701405458ae5")
+		(property "Reference" "#PWR070"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "459c81eb-c34a-4737-968c-04951da7bda3")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -17887,6 +18824,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 130.81 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc651c7d-ed03-4d5e-8f11-b10d664cb8f7")
+		(property "Reference" "#FLG01"
+			(at 130.81 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 130.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 130.81 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58c260af-69ed-45e9-9413-9736f6078395")
+		)
+		(instances
+			(project ""
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 173.99 153.67 0)
 		(unit 1)
@@ -18370,7 +19374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 200.66 32.258 90)
 			(effects
 				(font
@@ -18884,6 +19888,205 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 138.43 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e224eea3-46a7-4cfc-85d0-74c32730f90e")
+		(property "Reference" "#FLG03"
+			(at 138.43 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 138.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 138.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc43f9c1-c645-471d-b339-0c7143f1cd05")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 157.48 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4122ee2-10b9-458e-8710-4b2d2fdbc096")
+		(property "Reference" "#PWR073"
+			(at 157.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 157.48 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61e79745-e8fc-4d53-9139-95a1c9561314")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 157.48 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5849715-ddaf-48a1-83ef-753ab6ee39ee")
+		(property "Reference" "#FLG08"
+			(at 157.48 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 157.48 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 157.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7179b783-2f35-4a9d-92c4-3cae31f28fe4")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:TMUX1108PWR")
 		(at 77.47 167.64 0)
 		(unit 1)
@@ -19224,6 +20427,71 @@
 			(project ""
 				(path "/9366839b-90ab-4146-a727-74c5e521354c"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 138.43 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff93839c-d945-4035-9459-378ef3ba2edb")
+		(property "Reference" "#PWR068"
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 136.652 22.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 138.43 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0f735fb-ac26-42a9-a1a8-a6144350bfd7")
+		)
+		(instances
+			(project "Digitiyer_demo_1V8_module"
+				(path "/9366839b-90ab-4146-a727-74c5e521354c"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
